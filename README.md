@@ -10,9 +10,9 @@ This docker image bundles oci-cli, kubectl and helm to make that all easier.
 
 Don't forget to set the following env vars or the magic won't happen!
 
-export $OCI_CLI_CONFIG_FILE=/path/to/oci/config
+export OCI_CLI_CONFIG_FILE=/path/to/oci/config
 
-export $KUBECONFIG=/path/to/kubeconfig
+export KUBECONFIG=/path/to/kubeconfig
 
 Inspired by https://hub.docker.com/r/lwolf/helm-kubectl-docker
 
